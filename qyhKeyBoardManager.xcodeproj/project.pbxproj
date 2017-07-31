@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A8222011CB145C80036B151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8222001CB145C80036B151 /* main.m */; };
+		3A8222041CB145C80036B151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8222031CB145C80036B151 /* AppDelegate.m */; };
+		3A8222071CB145C80036B151 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8222061CB145C80036B151 /* ViewController.m */; };
+		3A82220A1CB145C80036B151 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8222081CB145C80036B151 /* Main.storyboard */; };
+		3A82220C1CB145C80036B151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A82220B1CB145C80036B151 /* Assets.xcassets */; };
+		3A82220F1CB145C80036B151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A82220D1CB145C80036B151 /* LaunchScreen.storyboard */; };
+		3A82221A1CB145C80036B151 /* qyhKeyBoardManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8222191CB145C80036B151 /* qyhKeyBoardManagerTests.m */; };
+		3A8222251CB145C80036B151 /* qyhKeyBoardManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8222241CB145C80036B151 /* qyhKeyBoardManagerUITests.m */; };
+		9C4C48C31F2ED9A90046B704 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C48C11F2ED9A90046B704 /* NextViewController.m */; };
+		9C4C48C41F2ED9A90046B704 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4C48C21F2ED9A90046B704 /* NextViewController.xib */; };
+		9C4C48CA1F2EFE150046B704 /* QYHKeyBoardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C48C91F2EFE150046B704 /* QYHKeyBoardManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A8222161CB145C80036B151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A8221F41CB145C80036B151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A8221FB1CB145C80036B151;
+			remoteInfo = qyhKeyBoardManager;
+		};
+		3A8222211CB145C80036B151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A8221F41CB145C80036B151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A8221FB1CB145C80036B151;
+			remoteInfo = qyhKeyBoardManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A8221FC1CB145C80036B151 /* qyhKeyBoardManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qyhKeyBoardManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8222001CB145C80036B151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A8222021CB145C80036B151 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A8222031CB145C80036B151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A8222051CB145C80036B151 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A8222061CB145C80036B151 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A8222091CB145C80036B151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A82220B1CB145C80036B151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A82220E1CB145C80036B151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A8222101CB145C80036B151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8222151CB145C80036B151 /* qyhKeyBoardManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qyhKeyBoardManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8222191CB145C80036B151 /* qyhKeyBoardManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qyhKeyBoardManagerTests.m; sourceTree = "<group>"; };
+		3A82221B1CB145C80036B151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8222201CB145C80036B151 /* qyhKeyBoardManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qyhKeyBoardManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8222241CB145C80036B151 /* qyhKeyBoardManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qyhKeyBoardManagerUITests.m; sourceTree = "<group>"; };
+		3A8222261CB145C80036B151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4C48C01F2ED9A90046B704 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		9C4C48C11F2ED9A90046B704 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		9C4C48C21F2ED9A90046B704 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		9C4C48C81F2EFE150046B704 /* QYHKeyBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYHKeyBoardManager.h; sourceTree = "<group>"; };
+		9C4C48C91F2EFE150046B704 /* QYHKeyBoardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYHKeyBoardManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A8221F91CB145C80036B151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8222121CB145C80036B151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A82221D1CB145C80036B151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A8221F31CB145C80036B151 = {
+			isa = PBXGroup;
+			children = (
+				3A8221FE1CB145C80036B151 /* qyhKeyBoardManager */,
+				3A8222181CB145C80036B151 /* qyhKeyBoardManagerTests */,
+				3A8222231CB145C80036B151 /* qyhKeyBoardManagerUITests */,
+				3A8221FD1CB145C80036B151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A8221FD1CB145C80036B151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A8221FC1CB145C80036B151 /* qyhKeyBoardManager.app */,
+				3A8222151CB145C80036B151 /* qyhKeyBoardManagerTests.xctest */,
+				3A8222201CB145C80036B151 /* qyhKeyBoardManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A8221FE1CB145C80036B151 /* qyhKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				3A8222351CB148370036B151 /* QYHKeyBoardManager */,
+				3A8222021CB145C80036B151 /* AppDelegate.h */,
+				3A8222031CB145C80036B151 /* AppDelegate.m */,
+				3A8222051CB145C80036B151 /* ViewController.h */,
+				3A8222061CB145C80036B151 /* ViewController.m */,
+				9C4C48C01F2ED9A90046B704 /* NextViewController.h */,
+				9C4C48C11F2ED9A90046B704 /* NextViewController.m */,
+				9C4C48C21F2ED9A90046B704 /* NextViewController.xib */,
+				3A8222081CB145C80036B151 /* Main.storyboard */,
+				3A82220B1CB145C80036B151 /* Assets.xcassets */,
+				3A82220D1CB145C80036B151 /* LaunchScreen.storyboard */,
+				3A8222101CB145C80036B151 /* Info.plist */,
+				3A8221FF1CB145C80036B151 /* Supporting Files */,
+			);
+			path = qyhKeyBoardManager;
+			sourceTree = "<group>";
+		};
+		3A8221FF1CB145C80036B151 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A8222001CB145C80036B151 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A8222181CB145C80036B151 /* qyhKeyBoardManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A8222191CB145C80036B151 /* qyhKeyBoardManagerTests.m */,
+				3A82221B1CB145C80036B151 /* Info.plist */,
+			);
+			path = qyhKeyBoardManagerTests;
+			sourceTree = "<group>";
+		};
+		3A8222231CB145C80036B151 /* qyhKeyBoardManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A8222241CB145C80036B151 /* qyhKeyBoardManagerUITests.m */,
+				3A8222261CB145C80036B151 /* Info.plist */,
+			);
+			path = qyhKeyBoardManagerUITests;
+			sourceTree = "<group>";
+		};
+		3A8222351CB148370036B151 /* QYHKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				9C4C48C81F2EFE150046B704 /* QYHKeyBoardManager.h */,
+				9C4C48C91F2EFE150046B704 /* QYHKeyBoardManager.m */,
+			);
+			name = QYHKeyBoardManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A8221FB1CB145C80036B151 /* qyhKeyBoardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8222291CB145C80036B151 /* Build configuration list for PBXNativeTarget "qyhKeyBoardManager" */;
+			buildPhases = (
+				3A8221F81CB145C80036B151 /* Sources */,
+				3A8221F91CB145C80036B151 /* Frameworks */,
+				3A8221FA1CB145C80036B151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qyhKeyBoardManager;
+			productName = qyhKeyBoardManager;
+			productReference = 3A8221FC1CB145C80036B151 /* qyhKeyBoardManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A8222141CB145C80036B151 /* qyhKeyBoardManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A82222C1CB145C80036B151 /* Build configuration list for PBXNativeTarget "qyhKeyBoardManagerTests" */;
+			buildPhases = (
+				3A8222111CB145C80036B151 /* Sources */,
+				3A8222121CB145C80036B151 /* Frameworks */,
+				3A8222131CB145C80036B151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A8222171CB145C80036B151 /* PBXTargetDependency */,
+			);
+			name = qyhKeyBoardManagerTests;
+			productName = qyhKeyBoardManagerTests;
+			productReference = 3A8222151CB145C80036B151 /* qyhKeyBoardManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A82221F1CB145C80036B151 /* qyhKeyBoardManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A82222F1CB145C80036B151 /* Build configuration list for PBXNativeTarget "qyhKeyBoardManagerUITests" */;
+			buildPhases = (
+				3A82221C1CB145C80036B151 /* Sources */,
+				3A82221D1CB145C80036B151 /* Frameworks */,
+				3A82221E1CB145C80036B151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A8222221CB145C80036B151 /* PBXTargetDependency */,
+			);
+			name = qyhKeyBoardManagerUITests;
+			productName = qyhKeyBoardManagerUITests;
+			productReference = 3A8222201CB145C80036B151 /* qyhKeyBoardManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A8221F41CB145C80036B151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YongHuaiQIu;
+				TargetAttributes = {
+					3A8221FB1CB145C80036B151 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7ACS3B4M75;
+					};
+					3A8222141CB145C80036B151 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3A8221FB1CB145C80036B151;
+					};
+					3A82221F1CB145C80036B151 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3A8221FB1CB145C80036B151;
+					};
+				};
+			};
+			buildConfigurationList = 3A8221F71CB145C80036B151 /* Build configuration list for PBXProject "qyhKeyBoardManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A8221F31CB145C80036B151;
+			productRefGroup = 3A8221FD1CB145C80036B151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A8221FB1CB145C80036B151 /* qyhKeyBoardManager */,
+				3A8222141CB145C80036B151 /* qyhKeyBoardManagerTests */,
+				3A82221F1CB145C80036B151 /* qyhKeyBoardManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A8221FA1CB145C80036B151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A82220F1CB145C80036B151 /* LaunchScreen.storyboard in Resources */,
+				9C4C48C41F2ED9A90046B704 /* NextViewController.xib in Resources */,
+				3A82220C1CB145C80036B151 /* Assets.xcassets in Resources */,
+				3A82220A1CB145C80036B151 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8222131CB145C80036B151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A82221E1CB145C80036B151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A8221F81CB145C80036B151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4C48C31F2ED9A90046B704 /* NextViewController.m in Sources */,
+				3A8222071CB145C80036B151 /* ViewController.m in Sources */,
+				3A8222041CB145C80036B151 /* AppDelegate.m in Sources */,
+				9C4C48CA1F2EFE150046B704 /* QYHKeyBoardManager.m in Sources */,
+				3A8222011CB145C80036B151 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8222111CB145C80036B151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A82221A1CB145C80036B151 /* qyhKeyBoardManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A82221C1CB145C80036B151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8222251CB145C80036B151 /* qyhKeyBoardManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A8222171CB145C80036B151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A8221FB1CB145C80036B151 /* qyhKeyBoardManager */;
+			targetProxy = 3A8222161CB145C80036B151 /* PBXContainerItemProxy */;
+		};
+		3A8222221CB145C80036B151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A8221FB1CB145C80036B151 /* qyhKeyBoardManager */;
+			targetProxy = 3A8222211CB145C80036B151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A8222081CB145C80036B151 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8222091CB145C80036B151 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A82220D1CB145C80036B151 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A82220E1CB145C80036B151 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A8222271CB145C80036B151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A8222281CB145C80036B151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A82222A1CB145C80036B151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7ACS3B4M75;
+				INFOPLIST_FILE = qyhKeyBoardManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YHQ.qyhKeyBoardManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A82222B1CB145C80036B151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7ACS3B4M75;
+				INFOPLIST_FILE = qyhKeyBoardManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YHQ.qyhKeyBoardManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A82222D1CB145C80036B151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = qyhKeyBoardManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YHQ.qyhKeyBoardManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qyhKeyBoardManager.app/qyhKeyBoardManager";
+			};
+			name = Debug;
+		};
+		3A82222E1CB145C80036B151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = qyhKeyBoardManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YHQ.qyhKeyBoardManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qyhKeyBoardManager.app/qyhKeyBoardManager";
+			};
+			name = Release;
+		};
+		3A8222301CB145C80036B151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = qyhKeyBoardManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YHQ.qyhKeyBoardManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = qyhKeyBoardManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3A8222311CB145C80036B151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = qyhKeyBoardManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YHQ.qyhKeyBoardManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = qyhKeyBoardManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A8221F71CB145C80036B151 /* Build configuration list for PBXProject "qyhKeyBoardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8222271CB145C80036B151 /* Debug */,
+				3A8222281CB145C80036B151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8222291CB145C80036B151 /* Build configuration list for PBXNativeTarget "qyhKeyBoardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A82222A1CB145C80036B151 /* Debug */,
+				3A82222B1CB145C80036B151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A82222C1CB145C80036B151 /* Build configuration list for PBXNativeTarget "qyhKeyBoardManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A82222D1CB145C80036B151 /* Debug */,
+				3A82222E1CB145C80036B151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A82222F1CB145C80036B151 /* Build configuration list for PBXNativeTarget "qyhKeyBoardManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8222301CB145C80036B151 /* Debug */,
+				3A8222311CB145C80036B151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A8221F41CB145C80036B151 /* Project object */;
+}
