@@ -17,7 +17,7 @@
 		3A8222251CB145C80036B151 /* qyhKeyBoardManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8222241CB145C80036B151 /* qyhKeyBoardManagerUITests.m */; };
 		9C4C48C31F2ED9A90046B704 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C48C11F2ED9A90046B704 /* NextViewController.m */; };
 		9C4C48C41F2ED9A90046B704 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4C48C21F2ED9A90046B704 /* NextViewController.xib */; };
-		9C4C48CA1F2EFE150046B704 /* QYHKeyBoardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C48C91F2EFE150046B704 /* QYHKeyBoardManager.m */; };
+		9C4D8F7D1F30710B00311C19 /* QYHKeyBoardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4D8F7C1F30710B00311C19 /* QYHKeyBoardManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		9C4C48C11F2ED9A90046B704 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		9C4C48C21F2ED9A90046B704 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 		9C4C48C81F2EFE150046B704 /* QYHKeyBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYHKeyBoardManager.h; sourceTree = "<group>"; };
-		9C4C48C91F2EFE150046B704 /* QYHKeyBoardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYHKeyBoardManager.m; sourceTree = "<group>"; };
+		9C4D8F7C1F30710B00311C19 /* QYHKeyBoardManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = QYHKeyBoardManager.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4D8F7D1F30710B00311C19 /* QYHKeyBoardManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,8 +156,8 @@
 		3A8222351CB148370036B151 /* QYHKeyBoardManager */ = {
 			isa = PBXGroup;
 			children = (
+				9C4D8F7C1F30710B00311C19 /* QYHKeyBoardManager.a */,
 				9C4C48C81F2EFE150046B704 /* QYHKeyBoardManager.h */,
-				9C4C48C91F2EFE150046B704 /* QYHKeyBoardManager.m */,
 			);
 			name = QYHKeyBoardManager;
 			sourceTree = "<group>";
@@ -296,7 +297,6 @@
 				9C4C48C31F2ED9A90046B704 /* NextViewController.m in Sources */,
 				3A8222071CB145C80036B151 /* ViewController.m in Sources */,
 				3A8222041CB145C80036B151 /* AppDelegate.m in Sources */,
-				9C4C48CA1F2EFE150046B704 /* QYHKeyBoardManager.m in Sources */,
 				3A8222011CB145C80036B151 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +441,10 @@
 				DEVELOPMENT_TEAM = 7ACS3B4M75;
 				INFOPLIST_FILE = qyhKeyBoardManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/qyhKeyBoardManager",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = YHQ.qyhKeyBoardManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -453,6 +457,10 @@
 				DEVELOPMENT_TEAM = 7ACS3B4M75;
 				INFOPLIST_FILE = qyhKeyBoardManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/qyhKeyBoardManager",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = YHQ.qyhKeyBoardManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
