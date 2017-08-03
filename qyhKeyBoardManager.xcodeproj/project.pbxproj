@@ -17,7 +17,7 @@
 		3A8222251CB145C80036B151 /* qyhKeyBoardManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8222241CB145C80036B151 /* qyhKeyBoardManagerUITests.m */; };
 		9C4C48C31F2ED9A90046B704 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C48C11F2ED9A90046B704 /* NextViewController.m */; };
 		9C4C48C41F2ED9A90046B704 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4C48C21F2ED9A90046B704 /* NextViewController.xib */; };
-		9C4D8F7D1F30710B00311C19 /* QYHKeyBoardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4D8F7C1F30710B00311C19 /* QYHKeyBoardManager.a */; };
+		9C9CD09D1F331A4F00F913C4 /* QYHKeyBoardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9CD09B1F331A4F00F913C4 /* QYHKeyBoardManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		9C4C48C01F2ED9A90046B704 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		9C4C48C11F2ED9A90046B704 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		9C4C48C21F2ED9A90046B704 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
-		9C4C48C81F2EFE150046B704 /* QYHKeyBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYHKeyBoardManager.h; sourceTree = "<group>"; };
-		9C4D8F7C1F30710B00311C19 /* QYHKeyBoardManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = QYHKeyBoardManager.a; sourceTree = "<group>"; };
+		9C9CD09B1F331A4F00F913C4 /* QYHKeyBoardManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = QYHKeyBoardManager.a; sourceTree = "<group>"; };
+		9C9CD09C1F331A4F00F913C4 /* QYHKeyBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYHKeyBoardManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C4D8F7D1F30710B00311C19 /* QYHKeyBoardManager.a in Frameworks */,
+				9C9CD09D1F331A4F00F913C4 /* QYHKeyBoardManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 		3A8221FE1CB145C80036B151 /* qyhKeyBoardManager */ = {
 			isa = PBXGroup;
 			children = (
-				3A8222351CB148370036B151 /* QYHKeyBoardManager */,
+				9C9CD09A1F331A4F00F913C4 /* QYHKeyBoardManager */,
 				3A8222021CB145C80036B151 /* AppDelegate.h */,
 				3A8222031CB145C80036B151 /* AppDelegate.m */,
 				3A8222051CB145C80036B151 /* ViewController.h */,
@@ -153,13 +153,13 @@
 			path = qyhKeyBoardManagerUITests;
 			sourceTree = "<group>";
 		};
-		3A8222351CB148370036B151 /* QYHKeyBoardManager */ = {
+		9C9CD09A1F331A4F00F913C4 /* QYHKeyBoardManager */ = {
 			isa = PBXGroup;
 			children = (
-				9C4D8F7C1F30710B00311C19 /* QYHKeyBoardManager.a */,
-				9C4C48C81F2EFE150046B704 /* QYHKeyBoardManager.h */,
+				9C9CD09B1F331A4F00F913C4 /* QYHKeyBoardManager.a */,
+				9C9CD09C1F331A4F00F913C4 /* QYHKeyBoardManager.h */,
 			);
-			name = QYHKeyBoardManager;
+			path = QYHKeyBoardManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,6 +444,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/qyhKeyBoardManager",
+					"$(PROJECT_DIR)/qyhKeyBoardManager/QYHKeyBoardManager",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = YHQ.qyhKeyBoardManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,6 +461,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/qyhKeyBoardManager",
+					"$(PROJECT_DIR)/qyhKeyBoardManager/QYHKeyBoardManager",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = YHQ.qyhKeyBoardManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
