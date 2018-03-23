@@ -15,9 +15,9 @@
 		3A82220F1CB145C80036B151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A82220D1CB145C80036B151 /* LaunchScreen.storyboard */; };
 		3A82221A1CB145C80036B151 /* qyhKeyBoardManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8222191CB145C80036B151 /* qyhKeyBoardManagerTests.m */; };
 		3A8222251CB145C80036B151 /* qyhKeyBoardManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8222241CB145C80036B151 /* qyhKeyBoardManagerUITests.m */; };
+		67102FE45E026603B0CC1C23 /* Pods_qyhKeyBoardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A934EFDFF04B226E6E712F32 /* Pods_qyhKeyBoardManager.framework */; };
 		9C4C48C31F2ED9A90046B704 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C48C11F2ED9A90046B704 /* NextViewController.m */; };
 		9C4C48C41F2ED9A90046B704 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C4C48C21F2ED9A90046B704 /* NextViewController.xib */; };
-		9C9CD09D1F331A4F00F913C4 /* QYHKeyBoardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9CD09B1F331A4F00F913C4 /* QYHKeyBoardManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +54,12 @@
 		3A8222201CB145C80036B151 /* qyhKeyBoardManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qyhKeyBoardManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8222241CB145C80036B151 /* qyhKeyBoardManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qyhKeyBoardManagerUITests.m; sourceTree = "<group>"; };
 		3A8222261CB145C80036B151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91B4BCC8C26D4BE467CAE155 /* Pods-qyhKeyBoardManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qyhKeyBoardManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-qyhKeyBoardManager/Pods-qyhKeyBoardManager.release.xcconfig"; sourceTree = "<group>"; };
 		9C4C48C01F2ED9A90046B704 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		9C4C48C11F2ED9A90046B704 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		9C4C48C21F2ED9A90046B704 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
-		9C9CD09B1F331A4F00F913C4 /* QYHKeyBoardManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = QYHKeyBoardManager.a; sourceTree = "<group>"; };
-		9C9CD09C1F331A4F00F913C4 /* QYHKeyBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYHKeyBoardManager.h; sourceTree = "<group>"; };
+		A934EFDFF04B226E6E712F32 /* Pods_qyhKeyBoardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qyhKeyBoardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8F774DA9BA0D6B88065546 /* Pods-qyhKeyBoardManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qyhKeyBoardManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qyhKeyBoardManager/Pods-qyhKeyBoardManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C9CD09D1F331A4F00F913C4 /* QYHKeyBoardManager.a in Frameworks */,
+				67102FE45E026603B0CC1C23 /* Pods_qyhKeyBoardManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +95,8 @@
 				3A8222181CB145C80036B151 /* qyhKeyBoardManagerTests */,
 				3A8222231CB145C80036B151 /* qyhKeyBoardManagerUITests */,
 				3A8221FD1CB145C80036B151 /* Products */,
+				3B46E9D2850775938AC593AA /* Pods */,
+				E48952870B817465C6466832 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,7 +113,6 @@
 		3A8221FE1CB145C80036B151 /* qyhKeyBoardManager */ = {
 			isa = PBXGroup;
 			children = (
-				9C9CD09A1F331A4F00F913C4 /* QYHKeyBoardManager */,
 				3A8222021CB145C80036B151 /* AppDelegate.h */,
 				3A8222031CB145C80036B151 /* AppDelegate.m */,
 				3A8222051CB145C80036B151 /* ViewController.h */,
@@ -153,13 +155,21 @@
 			path = qyhKeyBoardManagerUITests;
 			sourceTree = "<group>";
 		};
-		9C9CD09A1F331A4F00F913C4 /* QYHKeyBoardManager */ = {
+		3B46E9D2850775938AC593AA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9C9CD09B1F331A4F00F913C4 /* QYHKeyBoardManager.a */,
-				9C9CD09C1F331A4F00F913C4 /* QYHKeyBoardManager.h */,
+				BF8F774DA9BA0D6B88065546 /* Pods-qyhKeyBoardManager.debug.xcconfig */,
+				91B4BCC8C26D4BE467CAE155 /* Pods-qyhKeyBoardManager.release.xcconfig */,
 			);
-			path = QYHKeyBoardManager;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E48952870B817465C6466832 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A934EFDFF04B226E6E712F32 /* Pods_qyhKeyBoardManager.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A8222291CB145C80036B151 /* Build configuration list for PBXNativeTarget "qyhKeyBoardManager" */;
 			buildPhases = (
+				20D848FB34A3A7376C56DEF1 /* [CP] Check Pods Manifest.lock */,
 				3A8221F81CB145C80036B151 /* Sources */,
 				3A8221F91CB145C80036B151 /* Frameworks */,
 				3A8221FA1CB145C80036B151 /* Resources */,
@@ -288,6 +299,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20D848FB34A3A7376C56DEF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qyhKeyBoardManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A8221F81CB145C80036B151 /* Sources */ = {
@@ -436,6 +468,7 @@
 		};
 		3A82222A1CB145C80036B151 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8F774DA9BA0D6B88065546 /* Pods-qyhKeyBoardManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7ACS3B4M75;
@@ -453,6 +486,7 @@
 		};
 		3A82222B1CB145C80036B151 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B4BCC8C26D4BE467CAE155 /* Pods-qyhKeyBoardManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7ACS3B4M75;
