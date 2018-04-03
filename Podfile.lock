@@ -1,16 +1,16 @@
 PODS:
-  - QYHKeyBoardManager (0.0.1)
+  - QYHKeyBoardManager (0.0.3)
 
 DEPENDENCIES:
-  - QYHKeyBoardManager (= 0.0.1)
+  - QYHKeyBoardManager (= 0.0.3)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - QYHKeyBoardManager
 
 SPEC CHECKSUMS:
-  QYHKeyBoardManager: 4205789dcb7efc8b237f5629b341a0545d2af635
+  QYHKeyBoardManager: f604728ebf317cfcfb7056244ec6ab811b334d18
 
-PODFILE CHECKSUM: e9a108886ed915f61f9fc441943b66e7f38b00a6
+PODFILE CHECKSUM: 9667ee49e471037cb5264e3415fe97fdc1a4b4d3
 
 COCOAPODS: 1.5.0.beta.1

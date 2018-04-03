@@ -1,7 +1,7 @@
 # QYHKeyBoardManager
 键盘弹起处理，适合所有的界面，简单方便。
 //用CocoaPods管理：
-//pod 'QYHKeyBoardManager', '0.0.1'
+//pod 'QYHKeyBoardManager', '0.0.3'
 
 //1.把QYHKeyBoardManager文件夹（QYHKeyBoardManager.h和QYHKeyBoardManager.m）拉进项目中，
 //2.在要弹起键盘的控制器里面导入头文件,
